@@ -7,7 +7,9 @@
 body,
 p,
 h1,
-figure {
+figure,
+ul,
+li {
     margin: 0;
 }
 
@@ -487,7 +489,41 @@ figure {
     text-decoration: none;
 }
 
+.footer {
+    background-color: #e9e8e8;
+    margin-top: 30px;
+}
 
+.foot {
+    display: flex;
+    margin: 40px auto 0 auto;
+    width: 95%;
+    padding-top: 30px;
+}
+
+.foot-left1 {
+    width: 25%;
+    line-height: 2.3;
+    margin-top: 30px;}
+
+.foot-left1 ul li {
+    list-style-type: none;
+    padding: 0;
+}
+
+.foot-left1 ul li a {
+    color: #444;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.foot-left1 ul li a:hover {
+    text-decoration: underline;
+}
+
+.li1 {
+    font-size: 15px;
+}
 
 
 
@@ -550,6 +586,14 @@ figure {
 
     .go1 {
         font-size: 65px;
+    }
+
+    .foot {
+        flex-wrap: wrap;
+    }
+
+    .foot-left1 {
+        width: 50%;
     }
 
 }
@@ -642,6 +686,10 @@ figure {
 
     .none3 {
         display: none;
+    }
+
+    .foot-left1 {
+        width: 100%;
     }
 
 
