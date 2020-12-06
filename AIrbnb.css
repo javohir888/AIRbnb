@@ -525,9 +525,53 @@ li {
     font-size: 15px;
 }
 
+.copy {
+    width: 90%;
+    margin: 30px auto 0 auto;
+    border-top: 1px solid #999;
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-between;
+}
 
+.copy2 {
+    margin-left: 15px;
+}
 
+.copy2 a {
+    color: #222;
+    padding-left: 5px;
+    text-decoration: none;
+}
 
+.copy2 a:hover {
+    color: #888;
+}
+
+.copy3 {
+    display: flex;
+    justify-content: right;
+}
+
+.globus a {
+    color: #222;
+    margin-left: 15px;
+}
+
+.globus a:hover {
+    color: #777;
+}
+
+.face i {
+    font-size: 23px;
+    color: #222;
+    margin-left: 20px;
+}
+
+.copy3 i:hover {
+    cursor: pointer;
+    color: #777;
+}
 
 
 @media only screen and (max-width: 1120px) {
@@ -594,6 +638,25 @@ li {
 
     .foot-left1 {
         width: 50%;
+    }
+
+    .copy {
+        flex-direction: column;
+        align-items: center;
+        line-height: 1.8;
+    }
+
+    .copy3 {
+        order: 1 ;
+    }
+
+    .copy2 { 
+        order: 3;
+        margin: 0;
+    }
+
+    .copy1 {
+        order: 2;
     }
 
 }
@@ -690,7 +753,13 @@ li {
 
     .foot-left1 {
         width: 100%;
+        text-align: center;
     }
 
+}
 
+@media only screen and (max-width:350px) {
+    .copy3 {
+        display: none;
+    }
 }
