@@ -625,7 +625,7 @@ li {
     }
 
     .go {
-        width: 18%;
+        width: 25%;
     }
 
     .go1 {
@@ -733,6 +733,10 @@ li {
         width: 50%;
     }
 
+    .go {
+        width: 32%;
+    }
+
 
 }
 
@@ -756,6 +760,14 @@ li {
         text-align: center;
     }
 
+    .hidden i {
+        display: none;
+    }
+
+}
+
+.go {
+    width: 34%;
 }
 
 @media only screen and (max-width:350px) {
